@@ -1,6 +1,6 @@
 .big_name {
   padding-left: 0%;
-  padding-bottom: 30px;
+  padding-bottom: 8%;
   margin-top: 5%;
 }
 
@@ -12,13 +12,19 @@
   height: auto;
 }
 
-.col-md-8 {
-  padding-top: 7%;
-  padding-left: 10%
+
+
+.welcomepara {
+  overflow: auto;
+
+
 }
 
 .profile_picture {
+  width: 100%;
   max-width: 400px;
+
+
 }
 
 .blueline {
@@ -60,8 +66,12 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 770px) {
     .container{
-        max-width: 970px;
+        max-width: 95%;
+    }
+    .col-md-8
+    {
+      max-width: 90%;
     }
 }
