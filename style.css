@@ -1,0 +1,49 @@
+
+.big_name {
+padding-left: 0%;
+padding-bottom: 30px;
+margin-top: 8%;
+
+}
+
+.triangle {
+  float: right;
+ padding: 0 !important;
+ width: 10%;
+ min-width: 100px;
+ height: auto;
+
+}
+
+.blueline {
+  display: none;
+}
+
+.containerpadding {
+   padding-left: 3% !important;
+   margin: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .big_name {
+  max-width: 80%;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+
+  }
+
+  .triangle {
+    display: none;
+  }
+
+  .blueline {
+    display: block;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+     border-top: 30px solid #1776F3;
+  }
+
+
+}
