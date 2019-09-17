@@ -12,19 +12,53 @@
   height: auto;
 }
 
+.nav-links {
+  float: left;
+  padding: 0 !important;
+  padding-bottom: 5px !important;
+  padding-left: 10px !important;
+  max-height: 25px;
+
+
+  height: auto;
+}
+
+@media (min-width: 990px) {
+.padding-top {
+  padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+}
 
 
 .welcomepara {
   overflow: auto;
-
-
+  padding-bottom: 14%
 }
+
+
+
 
 .profile_picture {
   width: 100%;
   max-width: 400px;
+}
 
+.nav-text {
+  font-family: "Roboto-light", sans-serif;
+  font-size: 1em
+  border: 1px solid #2C2C2C;
 
+}
+
+.nav-text-style2 {
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 40px;
+
+  color: transparent;
+
+  letter-spacing: 4.6px;
+  text-align: center;
 }
 
 .blueline {
@@ -43,6 +77,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
+
   }
 
   .profile_picture {
@@ -52,6 +87,7 @@
     padding-left: none !important;
     padding-right: none !important;
     max-width: 90%;
+
   }
 
   .triangle {
@@ -74,4 +110,36 @@
     {
       max-width: 90%;
     }
+}
+
+.faded-div{
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F9F9F9;
+    display: none;
+}
+.faded-div a
+{
+  color:white;
+}
+
+.load-keshav
+{
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+
+
+
+
+
 }
