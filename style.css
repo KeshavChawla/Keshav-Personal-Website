@@ -13,6 +13,11 @@
   height: auto;
 }
 
+.card-title
+{
+text-decoration: underline;
+}
+
 .nav-links {
   float: left;
   padding: 0 !important;
@@ -34,7 +39,9 @@
 
 .welcomepara {
   overflow: auto;
-  padding-bottom: 14%
+  padding-bottom: 14%;
+  font-size: 20px;
+
 }
 
 
@@ -78,6 +85,15 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
+
+  }
+
+  .welcomepara {
+
+      overflow: auto;
+      padding-bottom: 14%;
+
+    font-size: 18px;
 
   }
 
@@ -136,11 +152,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
+}
 
-
-
-
-
-
+.welcome-para-1
+{
 
 }
