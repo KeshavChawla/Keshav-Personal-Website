@@ -18,6 +18,12 @@
 text-decoration: underline;
 }
 
+.alt-card-gif
+{
+ height: 100%;
+
+ overflow: auto;
+}
 .nav-links {
   float: left;
   padding: 0 !important;
@@ -77,6 +83,17 @@ text-decoration: underline;
   padding-left: 3% !important;
   margin: 0 !important;
 }
+.alt-card-gif-deca
+{
+  display: none;
+
+}
+
+.alt-large-displays
+{
+  height: 100%;
+}
+
 
 @media only screen and (max-width: 600px) {
   .big_name {
@@ -87,7 +104,17 @@ text-decoration: underline;
     margin-top: 2%;
 
   }
+.alt-card-gif-deca
+{
+  display: block;
 
+}
+
+.alt-large-displays
+{
+  display: none;
+
+}
   .welcomepara {
 
       overflow: auto;
