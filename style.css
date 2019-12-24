@@ -43,6 +43,8 @@ text-decoration: underline;
 }
 
 
+
+
 .welcomepara {
   overflow: auto;
   padding-bottom: 14%;
@@ -68,8 +70,6 @@ text-decoration: underline;
 .nav-text-style2 {
   font-family: "Roboto-Black", sans-serif;
   font-size: 40px;
-
-  color: transparent;
 
   letter-spacing: 4.6px;
   text-align: center;
@@ -181,7 +181,13 @@ text-decoration: underline;
 
 }
 
-.welcome-para-1
-{
+@media only screen and (max-width: 990px) {
+  .image-center-nav
+  {
+    display: block;
+margin-left: 30%;
+margin-right: 30%;
 
+
+  }
 }
