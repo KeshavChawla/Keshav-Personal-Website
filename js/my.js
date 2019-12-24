@@ -5,3 +5,6 @@ $('.faded-div').fadeIn(0);
 $('a.fade-out').click(function(){
     $('.faded-div').fadeOut(1000);
 });
+$('.carousel').carousel({
+  interval: 2000
+})

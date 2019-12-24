@@ -24,6 +24,32 @@ text-decoration: underline;
 
  overflow: auto;
 }
+
+.span-ic-space
+{
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.caro-height-adj
+{
+max-height: 300px;
+width: auto;
+display: block;
+margin: 0 auto;
+
+
+
+}
+.cars {
+  padding-bottom: 20px;
+
+
+
+
+}
 .nav-links {
   float: left;
   padding: 0 !important;
@@ -48,6 +74,14 @@ text-decoration: underline;
 .welcomepara {
   overflow: auto;
   padding-bottom: 14%;
+  font-size: 20px;
+
+}
+
+
+.contactpara {
+  overflow: auto;
+  padding-bottom: 7%;
   font-size: 20px;
 
 }
@@ -119,6 +153,15 @@ text-decoration: underline;
 
       overflow: auto;
       padding-bottom: 14%;
+
+    font-size: 18px;
+
+  }
+
+  .contactpara {
+
+      overflow: auto;
+      padding-bottom: 12%;
 
     font-size: 18px;
 
