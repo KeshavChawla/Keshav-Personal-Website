@@ -13,16 +13,9 @@
   <!-- Page Content -->
   <div class="overflow-auto">
     <section>
-      <a href="index"><img class="triangle" src="triangle.svg" alt="Blue Triangle"> </a>
-      <hr class="blueline">
+      <?php include('includes/blue-triangle.html'); ?>
       <div class="container containerpadding">
-        <div class="row">
-          <div class="col-lg-12">
-            <a href="index">
-              <img class="big_name" src="name2.png" alt="Keshav Chawla">
-            </a>
-          </div>
-        </div>
+        <?php include('includes/site-logo.html'); ?>
         <div class="row">
           <div class="col-md-3">
             <img class="profile_picture" src="img/keshav-profile.jpg" alt="Keshav Profile Picture">
