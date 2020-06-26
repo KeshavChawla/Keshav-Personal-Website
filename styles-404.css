@@ -1,0 +1,142 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.sizing {
+  max-width: 8%;
+  padding-bottom: 10px;
+  padding-top: 2%;
+}
+
+.tex-div {
+  text-transform: uppercase;
+}
+
+.text-width {
+  max-width: 100% !important;
+}
+
+.error-404-text {
+  font-family: 'Roboto', sans-serif;
+  color: #0A68E6;
+  -webkit-text-fill-color: #FFFFFF;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #4C91EC;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.85em;
+}
+
+.error-404-text-home {
+  -webkit-text-fill-color: #B2D1F9;
+  text-decoration: underline;
+}
+
+.error-404-text-link {
+  text-decoration: none;
+}
+
+#thediv {
+  padding-top: 30px;
+}
+
+#keshav-memoji-404 {
+  animation: MoveUpDown 3s linear infinite;
+  display: block;
+  margin: auto;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  /* left: 0;
+  bottom: 0; */
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+
+  50% {
+    bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .tex-div {
+    overflow: visible;
+    white-space: nowrap;
+  }
+
+  .memoji-404-image {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 435px) and (max-width: 797px) {
+  .sizing {
+    max-width: 20%;
+    padding-top: 4%;
+  }
+
+  .center {
+    width: 80%;
+  }
+
+  .error-404-text {
+    -webkit-text-stroke-width: 1.5px;
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 797px) and (max-width: 992px) {
+  .sizing {
+    max-width: 10%;
+    padding-top: 4%;
+  }
+
+  .center {
+    width: 70%;
+  }
+
+  .error-404-text {
+    -webkit-text-stroke-width: 1.5px;
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .sizing {
+    min-width: 5%;
+    max-width: 35%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .center {
+    width: 95%;
+  }
+
+  .error-404-text {
+    -webkit-text-stroke-width: 1.3px;
+    font-size: 1.5em;
+  }
+}

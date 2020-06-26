@@ -2,111 +2,15 @@
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166957897-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-166957897-1');
-</script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PDJRPLJ');</script>
-<!-- End Google Tag Manager -->
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Keshav Chawla</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/the-big-picture.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
-
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="favicon-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="favicon-160x160.png" sizes="160x160">
-  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
-  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="mstile-144x144.png">
-  <meta name="msapplication-config" content="browserconfig.xml">
-
-
+  <?php include('includes/header.html'); ?>
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDJRPLJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-  <div class="faded-div"><img class="load-keshav" src="keshav-load5.png" alt="PROJECTS"></div>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom padding-top">
-    <div class="container">
-      <a class="navbar-brand nav-text" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link nav-text-style2" href="index"><img class="image-center-nav nav-links" src="ABOUT.png" alt="ABOUT"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-text-style2" target="_blank" href="blog"><img class="image-center-nav nav-links" src="BLOG.png" alt="BLOG"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-text-style2" target="_blank" href="Keshav_Chawla_CV.pdf"><img class="image-center-nav nav-links" src="CV.png" alt="CV"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-text-style2" href="projects"><img class="image-center-nav nav-links" src="PROJECTS.png" alt="PROJECTS"></a>
-            <span class="sr-only">(current)</span>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-text-style2" target="_blank" href="Keshav_Portfolio_Website.pdf"><img class="image-center-nav nav-links" src="RESUME.png" alt="Portfolio"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-text-style2" href="contact"><img class="image-center-nav nav-links" src="CONTACT.png" alt="CONTACT"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Page Content -->
-
-
+  <?php include('includes/google-tag-and-preloader.html'); ?>
+    <!-- Navigation -->
+    <?php include('includes/navbar.html'); ?>
+    <!-- Page Content -->
   <div class="overflow-auto">
-
     <section>
       <a href="index" ><img class="triangle" src="triangle.svg" alt="Blue Triangle"> </a>
       <hr class="blueline">
@@ -117,17 +21,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="index">
               <img class="big_name" src="name2.png" alt="Keshav Chawla">
             </a>
-
           </div>
         </div>
-
         <div class="card mb-3 mx-auto" style="max-width: 900px;">
           <div class="row no-gutters">
-
             <div class="col-md-3">
               <img src="img/smart_mirror.gif" class="card-img" alt="Keshav's Smart Mirror">
             </div>
-
             <div class="col-md-8">
               <div class="card-body">
                 <a target="_blank" href="https://medium.com/@keshavchawla/a-step-by-step-guide-to-build-your-own-smart-mirror-543cebbf135f">
@@ -146,18 +46,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </div>
         </div>
-
-
-
         <div class="card mb-3 mx-auto" style="max-width: 900px;">
           <div class="row no-gutters">
-
             <div class="col-md-3">
               <img src="img/hack-the-fridge.gif" class="card-img alt-card-gif-deca" alt="HackTheFridge">
               <img src="img/hackthefridge.jpg" class="card-img alt-large-displays" alt="HackTheFridge">
-
             </div>
-
             <div class="col-md-8">
               <div class="card-body">
                 <a target="_blank" href="https://devpost.com/software/dothedew-hackthefridge">
@@ -170,9 +64,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   (scavenger hunt items) that need to be completed.
                   <br><br>
                   Once the tasks have been completed, a fridge is unlocked to receive free Mountain Dew!
-
-
-
                 </p>
                 <p class="card-text font-weight-bold">Tech Stack: Xcode, Arduino, PHP, and Indico's Image Recognition API</p>
                 <p class="card-text"><small class="text-muted">Hack The 6ix Hackathon - Pepsi Challenge Winner</small></p>
@@ -241,17 +132,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </div>
         </div>
-
-
-
         <div class="card mb-3 mx-auto" style="max-width: 900px;">
           <div class="row no-gutters">
-
             <div class="col-md-3">
               <img src="img/portfolio.jpg" class="card-img" alt="InsureMotion App Screen">
-
             </div>
-
             <div class="col-md-8">
               <div class="card-body">
                 <a target="_blank" href="Keshav_Portfolio_Website.pdf">
@@ -261,9 +146,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   A personal portfolio.
                   <br><br>
                   My intention was creating a portfolio that would not only showcase my UI design experience but also display my understanding and passion for software development.
-<br><br>
- Check out the portfolio for yourself  <a href="Keshav_Portfolio_Website.pdf" target="_blank"> here! </a>
-
+                  <br><br>
+                  Check out the portfolio for yourself  <a href="Keshav_Portfolio_Website.pdf" target="_blank"> here! </a>
                 </p>
                 <p class="card-text font-weight-bold">Tech Stack: Sketch, Adobe Illustrator, and Wireframes</p>
                 <p class="card-text"><small class="text-muted">Last updated December 2019</small></p>
@@ -271,21 +155,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </div>
         </div>
-
-
       </div>
     </section>
     <br><br>
     <br>
-
   </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="js/my.js"></script>
-
-
+  <?php include('includes/footer.html'); ?>
 </body>
-
 </html>
