@@ -1,4 +1,4 @@
 <?php
 header("HTTP/1.0 404 Not Found");
-include('404.html');
+include('403.html');
 ?>
