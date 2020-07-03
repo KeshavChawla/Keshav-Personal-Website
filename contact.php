@@ -10,9 +10,10 @@
     <!-- Navigation -->
     <?php include('includes/navbar.html'); ?>
     <!-- Page Content -->
+    <?php include('includes/blue-triangle.html'); ?>
+
   <div class="overflow-auto">
     <section>
-      <?php include('includes/blue-triangle.html'); ?>
       <div class="container containerpadding">
         <?php include('includes/site-logo.html'); ?>
         <div class="cars">
@@ -55,11 +56,11 @@
             <br><br>
             ... and while you are here feel free to check out my socials:
             <br>
-            <a href="https://github.com/KeshavChawla" target="_blank"> <i class="fab fa-github span-ic-space fa-2x" style="color: #1776F3"></i></a>
+            <a href="https://github.com/KeshavChawla" target="_blank"> <i class="fab fa-github-square span-ic-space fa-2x" style="color: #1776F3"></i></a>
             <a href="https://www.linkedin.com/in/keshav-chawla/" target="_blank"> <i class="fab fa-linkedin span-ic-space fa-2x" style="color: #1776F3"></i></a>
-            <a href="https://instagram.com/keshav.chawla_/" target="_blank"> <i class="fab fa-instagram span-ic-space fa-2x" style="color: #1776F3"></i></a>
-            <a href="https://twitter.com/KeshavChawla_" target="_blank"> <i class="fab fa-twitter span-ic-space fa-2x" style="color: #1776F3"></i></a>
-            <a href="https://facebook.com/keshav1chawla" target="_blank"> <i class="fab fa-facebook span-ic-space fa-2x" style="color: #1776F3"></i></a>
+            <a href="https://instagram.com/keshav.chawla_/" target="_blank"> <i class="fab fa-instagram-square span-ic-space fa-2x" style="color: #1776F3"></i></a>
+            <a href="https://twitter.com/KeshavChawla_" target="_blank"> <i class="fab fa-twitter-square span-ic-space fa-2x" style="color: #1776F3"></i></a>
+            <a href="https://facebook.com/keshav1chawla" target="_blank"> <i class="fab fa-facebook-square span-ic-space fa-2x" style="color: #1776F3"></i></a>
           </p>
         </div>
         <div class="col-md-3">
@@ -69,5 +70,7 @@
   </section>
   </div>
   <?php include('includes/footer.html'); ?>
+
+
 </body>
 </html>

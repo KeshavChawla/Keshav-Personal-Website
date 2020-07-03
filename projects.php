@@ -10,9 +10,9 @@
     <!-- Navigation -->
     <?php include('includes/navbar.html'); ?>
     <!-- Page Content -->
+    <?php include('includes/blue-triangle.html'); ?>
   <div class="overflow-auto">
     <section>
-      <?php include('includes/blue-triangle.html'); ?>
       <div class="container containerpadding">
         <?php include('includes/site-logo.html'); ?>
         <div class="card mb-3 mx-auto" style="max-width: 900px;">

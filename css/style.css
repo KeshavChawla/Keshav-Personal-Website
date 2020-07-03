@@ -1,3 +1,15 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+
+
 .big_name {
   padding-left: 0%;
   padding-bottom: 8%;
@@ -122,14 +134,38 @@ margin: 0 auto;
 .nav-text-style2 {
   font-family: "Roboto-Black", sans-serif;
   font-size: 40px;
-
   letter-spacing: 4.6px;
   text-align: center;
 }
 
-.blueline {
-  display: none;
+.nav-text-border {
+  font-family: 'Roboto-Black', sans-serif;
+  color: #0A68E6;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #808080;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 1.7em;
+
 }
+
+div.sticky {
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+  .blueline {
+    display: block;
+    position: sticky;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    border-top: 30px solid #1776F3;
+    opacity: 100%;
+  }
 
 .containerpadding {
   padding-left: 3% !important;
@@ -200,7 +236,7 @@ margin: 0 auto;
   }
 
   .blueline {
-    display: block;
+    display: sticky;
     margin-top: 0 !important;
     margin-bottom: 10px !important;
     border-top: 30px solid #1776F3;
