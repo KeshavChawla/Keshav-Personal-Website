@@ -1,4 +1,7 @@
-# Keshav Chawla 
+# [Keshav Chawla](https://keshavchawla.com/)
+
+<img border="0" alt="KeshavBlog" src="https://raw.githubusercontent.com/KeshavChawla/Keshav-Personal-Website/master/keshav_mac_memoji.jpg" width="140" height="140">
+
 ## 👨‍💻 My Personal Website!
 
 ## https://keshavchawla.com/
