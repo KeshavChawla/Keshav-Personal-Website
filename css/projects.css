@@ -1,0 +1,27 @@
+.projects-container {
+  margin-top: 10%;
+  margin-left: 10%;
+  padding-right: 10%;
+}
+
+.project-card {
+  opacity: 100%;
+  background-color: #FFFBEF;
+  border: #FFFBEF;
+}
+
+.card-title {
+  font-family: "Roboto-Medium";
+  font-style: italic;
+  font-size: 1.6em;
+  color: #000000;
+  text-align: left;
+  text-decoration: none;
+}
+
+.card-second-title {
+  font-family: "Roboto-Light";
+  font-size: 0.9em;
+  color: #000000;
+  text-align: left;
+}

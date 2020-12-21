@@ -1,20 +1,59 @@
+
+
 html {
-    overflow: hidden;
     height: 100%;
 }
 
 
 body {
     height: 100%;
-    overflow: auto;
+    background: #FFFBEF;
+    overflow-y: scroll; 
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+p {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 1.2em;
+  color: #000000;
+  text-align: left;
+} 
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+h1 {
+  font-family: Roboto-Bold;
+  font-size: 1.9em;
+  color: #000000;
+  text-align: left;
+}
+
+.memoji {
+  padding-left: 0%;
+  padding-bottom: 0%;
+  margin-top: 3%;
+  max-width: 7%
 }
 
 
-.big_name {
-  padding-left: 0%;
-  padding-bottom: 8%;
-  margin-top: 5%;
-  max-width: 30%
+
+.text-div {
+  margin: auto;
+  width: 100%;
+  padding-top: 5%;
+
 }
 
 .keshav-sideline-animoji {
@@ -75,10 +114,6 @@ margin: 0 auto;
 }
 .cars {
   padding-bottom: 20px;
-
-
-
-
 }
 .nav-links {
   float: left;
@@ -98,16 +133,13 @@ margin: 0 auto;
 }
 }
 
-
-
-
 .welcomepara {
   overflow: auto;
   padding-bottom: 14%;
+  padding-top: 5%;
   font-size: 20px;
 
 }
-
 
 .contactpara {
   overflow: auto;
@@ -116,19 +148,15 @@ margin: 0 auto;
 
 }
 
-
-
-
 .profile_picture {
   width: 100%;
   max-width: 400px;
 }
 
 .nav-text {
-  font-family: "Roboto-light", sans-serif;
-  font-size: 1em
-  border: 1px solid #2C2C2C;
-
+  font-family: Roboto-Light, sans-serif;
+  font-size: 0.6em;
+  color: #000000;
 }
 
 .nav-text-style2 {
@@ -139,14 +167,9 @@ margin: 0 auto;
 }
 
 .nav-text-border {
-  font-family: 'Roboto-Black', sans-serif;
-  color: #0A68E6;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 0.8px;
-  -webkit-text-stroke-color: #808080;
-  text-align: center;
-  letter-spacing: 3px;
-  font-size: 1.7em;
+  font-family: Roboto-Light, sans-serif;
+  font-size: 1.2em;
+  color: #000000;
 
 }
 
@@ -157,15 +180,6 @@ div.sticky {
   top: 0;
 }
 
-
-  .blueline {
-    display: block;
-    position: sticky;
-    margin-top: 0 !important;
-    margin-bottom: 10px !important;
-    border-top: 30px solid #1776F3;
-    opacity: 100%;
-  }
 
 .containerpadding {
   padding-left: 3% !important;
@@ -182,16 +196,25 @@ div.sticky {
   height: 100%;
 }
 
+.bg-light {
+  background-color: transparent !important;
+}
+
+
 
 @media only screen and (max-width: 600px) {
-  .big_name {
-    max-width: 80%;
+  .memoji {
+    max-width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
+    margin-top: 0%;
+    padding-top: 20%;
+    overflow: hidden;
 
   }
+
+
 .alt-card-gif-deca
 {
   display: block;
@@ -245,28 +268,27 @@ div.sticky {
 
 
 .faded-div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
     position: fixed;
     z-index: 999999;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #F9F9F9;
+    background: #FFFBEF;
     display: none;
 }
-.faded-div a
-{
-  color:white;
-}
 
-.load-keshav
-{
-  width: 90%;
+
+.load-keshav {
+  max-width: 8%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 
@@ -277,7 +299,7 @@ div.sticky {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #FFFFFF;
+    background: #FFFBEF;
     display: none;
 
 }
@@ -307,17 +329,44 @@ div.sticky {
     }
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline-color: #000000;
+}
+
 
 @media only screen and (max-width: 990px) {
+  /* Centers the navbar in the hamburger menu */
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.load-keshav {
+  max-width: 45%;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+  .bg-light:hover {
+    background-color: #FFFBEF !important;
+    
+  }
+
   .image-center-nav
   {
     display: block;
     margin-left: 30%;
     margin-right: 30%;
   }
+
   .keshav-animoji-img {
     width: 50%;
   }
-
-
 }

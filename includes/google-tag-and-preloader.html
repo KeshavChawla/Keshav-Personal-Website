@@ -1,5 +1,13 @@
-<!-- Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) 
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDJRPLJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 <!-- End Google Tag Manager (noscript) -->
-<div class="faded-div"><img class="load-keshav" src="navbar-images/keshav-load5.png" alt="PROJECTS"></div>
+<script src="js/memoji.js"> </script>
+<div class="faded-div"><img id="memoji-preloader" class="load-keshav" alt="Keshav Memoji"></div>
+
+<script>
+    var emoji_basename = getMemojiImage();
+    var base_path = "img/memojis/";
+    var full_image_path = base_path + emoji_basename;
+    document.getElementById("memoji-preloader").src = full_image_path;
+</script>

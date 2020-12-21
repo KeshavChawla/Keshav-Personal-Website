@@ -1,7 +1,13 @@
 <div class="row">
   <div class="col-lg-12">
     <a href="index">
-      <img class="big_name" src="navbar-images/name2.png" alt="Keshav Chawla">
+      <img id="site-page-memoji" class="memoji"  alt="Keshav Chawla">
+      <script>
+        var emoji_basename = getMemojiImage();
+        var base_path = "img/memojis/";
+        var full_image_path = base_path + emoji_basename;
+        document.getElementById("site-page-memoji").src = full_image_path;
+      </script>
     </a>
   </div>
 </div>
