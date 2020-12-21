@@ -34,7 +34,7 @@ a:visited {
 }
 
 h1 {
-  font-family: Roboto-Bold;
+  font-family: "Roboto-Bold", sans-serif;
   font-size: 1.9em;
   color: #000000;
   text-align: left;
@@ -154,7 +154,7 @@ margin: 0 auto;
 }
 
 .nav-text {
-  font-family: Roboto-Light, sans-serif;
+  font-family: "Roboto-Light", sans-serif;
   font-size: 0.6em;
   color: #000000;
 }
@@ -167,7 +167,7 @@ margin: 0 auto;
 }
 
 .nav-text-border {
-  font-family: Roboto-Light, sans-serif;
+  font-family: "Roboto-Light", sans-serif;
   font-size: 1.2em;
   color: #000000;
 
@@ -212,6 +212,7 @@ div.sticky {
     padding-top: 20%;
     overflow: hidden;
 
+
   }
 
 
@@ -221,28 +222,15 @@ div.sticky {
 
 }
 
-.alt-large-displays
-{
+.alt-large-displays {
   display: none;
-
 }
-  .welcomepara {
 
-      overflow: auto;
-      padding-bottom: 14%;
-
-    font-size: 18px;
-
-  }
-
-  .contactpara {
-
-      overflow: auto;
-      padding-bottom: 12%;
-
-    font-size: 18px;
-
-  }
+.contactpara {
+  overflow: auto;
+  padding-bottom: 12%;
+  font-size: 18px;
+}
 
   .profile_picture {
     display: block;

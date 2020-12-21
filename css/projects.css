@@ -1,17 +1,35 @@
 .projects-container {
-  margin-top: 10%;
-  margin-left: 10%;
-  padding-right: 10%;
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-right: 5%;
+  overflow-x: hidden !important;
+}
+
+@media (max-width: 990px) {
+  .projects-container {
+    padding-left: 0%;
+    padding-right: 0%;
+    overflow-x: hidden !important;
+  }
+}
+
+.project-link {
+  text-decoration: underline !important;
+  color: #1871ff !important;
+}
+
+.project-link:hover {
+  color: #000000 !important;
 }
 
 .project-card {
   opacity: 100%;
-  background-color: #FFFBEF;
-  border: #FFFBEF;
+  background-color: #fffbef;
+  border: #fffbef;
 }
 
 .card-title {
-  font-family: "Roboto-Medium";
+  font-family: "Roboto-Medium", sans-serif;
   font-style: italic;
   font-size: 1.6em;
   color: #000000;
@@ -20,8 +38,18 @@
 }
 
 .card-second-title {
-  font-family: "Roboto-Light";
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 0.9em;
   color: #000000;
   text-align: left;
 }
+
+.card-text {
+  font-size: 1em;
+}
+
+.card-img {
+  object-fit: cover !important;
+  width: 100%;
+}
+
