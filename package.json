@@ -29,8 +29,10 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-the-big-picture.git"
     },
     "dependencies": {
+        "@glidejs/glide": "^3.4.1",
         "bootstrap": "4.3.1",
-        "jquery": "^3.5.1"
+        "jquery": "^3.5.1",
+        "tilt.js": "^1.2.1"
     },
     "devDependencies": {
         "browser-sync": "^2.26.10",

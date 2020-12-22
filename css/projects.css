@@ -30,6 +30,7 @@
 
 .card-title {
   font-family: "Roboto-Medium", sans-serif;
+  font-weight: 500;
   font-style: italic;
   font-size: 1.6em;
   color: #000000;
@@ -39,6 +40,7 @@
 
 .card-second-title {
   font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
   font-size: 0.9em;
   color: #000000;
   text-align: left;

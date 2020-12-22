@@ -1,4 +1,16 @@
+
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="js/my.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+    // Used to tile the memoji logo on each page
+    $('.memoji').tilt({
+        maxTilt: 30,
+        perspective: 500   // Transform perspective, the lower the more extreme the tilt gets.
+
+    });
+}); 
+</script>

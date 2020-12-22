@@ -14,8 +14,13 @@ body {
 
 }
 
+.bold {
+  font-weight: bold;
+}
+
 p {
   font-family: "Roboto-Light", sans-serif;
+  font-weight: 300;
   font-size: 1.2em;
   color: #000000;
   text-align: left;
@@ -24,6 +29,7 @@ p {
 a {
   color: #000000;
 }
+
 
 a:hover {
   color: #000000;
@@ -35,19 +41,35 @@ a:visited {
 
 h1 {
   font-family: "Roboto-Bold", sans-serif;
+  font-weight: 700;
   font-size: 1.9em;
   color: #000000;
   text-align: left;
+}
+
+.bg-custom {
+  background-color: #FFFBEF !important;
+  z-index: 1;
+  
+}
+
+.icon-first-link  {
+  padding-left: 0 !important;
 }
 
 .memoji {
   padding-left: 0%;
   padding-bottom: 0%;
   margin-top: 3%;
-  max-width: 7%
+  max-width: 7%;
+  position: relative;
+  z-index: 2;
 }
 
-
+.contact-link {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 
 .text-div {
   margin: auto;
@@ -115,6 +137,9 @@ margin: 0 auto;
 .cars {
   padding-bottom: 20px;
 }
+.memoji-cars {
+  width: 20%;
+}
 .nav-links {
   float: left;
   padding: 0 !important;
@@ -155,12 +180,14 @@ margin: 0 auto;
 
 .nav-text {
   font-family: "Roboto-Light", sans-serif;
+  font-weight: 300;
   font-size: 0.6em;
   color: #000000;
 }
 
 .nav-text-style2 {
   font-family: "Roboto-Black", sans-serif;
+  font-weight: 900;
   font-size: 40px;
   letter-spacing: 4.6px;
   text-align: center;
@@ -168,6 +195,7 @@ margin: 0 auto;
 
 .nav-text-border {
   font-family: "Roboto-Light", sans-serif;
+  font-weight: 300;
   font-size: 1.2em;
   color: #000000;
 
@@ -178,6 +206,10 @@ div.sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+}
+
+#project-title {
+  font-size: 2.5rem;
 }
 
 
@@ -211,8 +243,7 @@ div.sticky {
     margin-top: 0%;
     padding-top: 20%;
     overflow: hidden;
-
-
+    z-index: 0;
   }
 
 
@@ -334,6 +365,10 @@ div.sticky {
 
 .load-keshav {
   max-width: 45%;
+}
+
+.hello-about {
+  padding-top: 15%;
 }
 
 .navbar .navbar-collapse {

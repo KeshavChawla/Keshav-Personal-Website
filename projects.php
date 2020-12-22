@@ -20,6 +20,8 @@
       </div>
     </section>
     <div class="container projects-container">
+    <h1 id="project-title">Projects &#x1F4CB;</h1>
+    <br><br>
       <?php include('includes/projects/magic-mirror.html'); ?>
       <?php include('includes/projects/hack-the-fridge.html'); ?>
       <?php include('includes/projects/deca-website.html'); ?>
