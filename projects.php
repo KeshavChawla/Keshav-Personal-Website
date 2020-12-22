@@ -19,15 +19,20 @@
         <?php include('includes/site-logo.html'); ?>
       </div>
     </section>
+   
+
     <div class="container projects-container">
-    <h1 id="project-title">Projects &#x1F4CB;</h1>
+   
+    <div class="col-md-12">
+
+    <h1 class="hello-about" id="project-title">Projects &#x1F4CB;</h1>
     <br><br>
       <?php include('includes/projects/magic-mirror.html'); ?>
       <?php include('includes/projects/hack-the-fridge.html'); ?>
       <?php include('includes/projects/deca-website.html'); ?>
       <?php include('includes/projects/insuremotion.html'); ?>
       <?php include('includes/projects/design-portfolio.html'); ?>
-
+    </div>
       <script>
         // Sizes the pictures based on the min of the actual size or the size of the 
         //  text box in the card
@@ -35,13 +40,17 @@
         var class_node_length = class_node.length;
         var i;
         for (i = 0; i < class_node_length; i++) {
-          var image_height = document.getElementsByClassName('card-img')[i].offsetHeight;
+          var image_height = (document.getElementsByClassName('card-img')[i]).offsetHeight;
           var textbox_height = document.getElementsByClassName('card-body')[i].offsetHeight;
           console.log(image_height);
           console.log(textbox_height);
           if (image_height > textbox_height) {
             (document.getElementsByClassName('card-img')[i]).style.height = textbox_height + "px";
+          } else {
+            (document.getElementsByClassName('card-img')[i]).style.height = textbox_height + "px";
           }
+          console.log((document.getElementsByClassName('card-img')[i]).offsetHeight);
+
         }
       </script>
     </div>

@@ -11,6 +11,10 @@
     padding-right: 0%;
     overflow-x: hidden !important;
   }
+  .card-img {
+    max-height: 300px;
+  }
+  
 }
 
 .project-link {
@@ -52,6 +56,5 @@
 
 .card-img {
   object-fit: cover !important;
-  width: 100%;
 }
 
