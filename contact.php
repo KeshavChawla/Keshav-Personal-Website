@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
   <?php include('includes/header.html'); ?>
-  <!-- Required Core Stylesheet -->
-  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-  <!-- Optional Theme Stylesheet -->
-  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+  <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"> -->
+  <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css"> -->
+
+
+  <!-- Required Core Stylesheet 
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"> -->
+  <!-- Optional Theme Stylesheet
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"> -->
 </head>
 <body>
   <?php include('includes/google-tag-and-preloader.html'); ?>
@@ -40,7 +44,9 @@
     </section>
   </div>
   <?php include('includes/footer.html'); ?>
-  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+  <!-- <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script> -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   <script>
     fontAwesomeIconTilt();
     addMemojiSlides();
