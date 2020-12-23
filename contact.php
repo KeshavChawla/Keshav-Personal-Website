@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <?php include('includes/header.html'); ?>
-  <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"> -->
-  <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css"> -->
-
-
-  <!-- Required Core Stylesheet 
-  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"> -->
-  <!-- Optional Theme Stylesheet
-  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"> -->
+  <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
 </head>
+
 <body>
   <?php include('includes/google-tag-and-preloader.html'); ?>
   <!-- Navigation -->
@@ -32,7 +28,6 @@
             <a href="https://www.linkedin.com/in/keshav-chawla/" target="_blank"> <i class="fab fa-linkedin span-ic-space fa-2x" style="color: #000000"></i></a>
             <a href="https://twitter.com/KeshavChawla_" target="_blank"> <i class="fab fa-twitter-square span-ic-space fa-2x" style="color: #000000"></i></a>
             <a href="https://instagram.com/keshav.chawla_/" target="_blank"> <i class="fab fa-instagram-square span-ic-space fa-2x" style="color: #000000"></i></a>
-            <!-- <a href="https://facebook.com/keshav1chawla" target="_blank"> <i class="fab fa-facebook-square span-ic-space fa-2x" style="color: #000000"></i></a> -->
             <a href="https://dribbble.com/keshavc" target="_blank"> <i class="fab fa-dribbble-square span-ic-space fa-2x" style="color: #000000"></i></a>
             <br><br>
             <?php include('includes/memoji-carousel.html'); ?>
@@ -44,15 +39,12 @@
     </section>
   </div>
   <?php include('includes/footer.html'); ?>
-  <!-- <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script> -->
-  
   <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   <script>
     fontAwesomeIconTilt();
     addMemojiSlides();
     glideSlideSetup();
   </script>
-
 </body>
 
 </html>

@@ -6,20 +6,63 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/styles-404.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-  <title></title>
 </head>
+
 <body>
   <div class="vertical-center flex-nowrap">
-    <div id='thediv' class'just-memoji'>
-      <img src="img/Keshav-Head.png" alt="404" class="center sizing" id="keshav-memoji-404">
+    <div id='thediv' class="just-memoji">
+      <img id="keshav-memoji-404" alt="404" class="center sizing">
+      <script src="js/memoji.js"></script>
+      <script>
+        var emoji_basename = getMemojiImage();
+        var base_path = "img/memojis/";
+        var full_image_path = base_path + emoji_basename;
+        document.getElementById("keshav-memoji-404").src = full_image_path;
+      </script>
     </div>
-    <img src="img/404-5-md.png" alt="404" class="center memoji-404-image">
+    <img id="404-large-graphic" src="img/404-5-md.png" alt="404" class="center memoji-404-image" data-tilt>
+
     <div class="tex-div ">
-      <a class="error-404-text-link" href="https://keshavchawla.com">
-        <h2 class="error-404-text text-width">Oops! You're off the beaten path!<h2>
-            <h2 class="error-404-text text-width">We all come from away, but let's get you <span class="error-404-text-home">home</span>.<h2>
+      <a class="error-404-text-link" href="/">
+        <h2 id="404-line1" class="error-404-text text-width" data-tilt></h2>
+        <script src="js/browser.js"></script>
+        <script>
+          let messages404 = [];
+          messages404.push("Follow the yellow brick road, it's best not to stray away!");
+          messages404.push("Oops! You're off the beaten path!");
+          var message_to_return = messages404[1];
+          // Blame the user no matter what happens
+          if (isOpera) {
+            message_to_return = "Don't blame me, blame the fact that you are using Opera."
+          } else if (isIE) {
+            message_to_return = "Don't blame me, blame the fact that you are still using IE."
+          } else if (isEdge || isEdgeChromium) {
+            message_to_return = "Don't blame me, blame the fact that you are using Microsoft Edge."
+          } else if (isFirefox) {
+            message_to_return = "Don't blame me, blame the fact that you are using Firefox."
+          } else if (isSafari) {
+            message_to_return = "Don't blame me, blame the fact that you are using Safari."
+          } else if (isChrome) {
+            message_to_return = "Don't blame me, blame the fact that you are using Chrome."
+          }
+          document.getElementById('404-line1').innerHTML = message_to_return;
+        </script>
+        <h2 class="error-404-text text-width" data-tilt>We all come from away, but let's get you <span
+            class="error-404-text-home">home</span>.</h2>
       </a>
     </div>
   </div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".404-large-graphic").tilt({
+        maxTilt: 10,
+        perspective: 10, // Transform perspective, the lower the more extreme the tilt gets.
+      });
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 </body>
+
 </html>

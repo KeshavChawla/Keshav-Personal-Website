@@ -5,9 +5,11 @@
   width: 55%;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
+  background-color: #fffbef;
 }
 
 .vertical-center {
@@ -33,18 +35,18 @@ html, body {
 }
 
 .error-404-text {
-  font-family: 'Roboto', sans-serif;
-  color: #0A68E6;
-  -webkit-text-fill-color: #FFFFFF;
+  font-family: "Roboto-Medium", sans-serif;
+  color: #0a68e6;
+  -webkit-text-fill-color: #fffbef;
   -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #4C91EC;
+  -webkit-text-stroke-color: #0a68e6;
   text-align: center;
   letter-spacing: 2px;
   font-size: 1.85em;
 }
 
 .error-404-text-home {
-  -webkit-text-fill-color: #B2D1F9;
+  -webkit-text-fill-color: #b2d1f9;
   text-decoration: underline;
 }
 
@@ -57,7 +59,7 @@ html, body {
 }
 
 #keshav-memoji-404 {
-  animation: MoveUpDown 3s linear infinite;
+  animation: MoveUpDown 2s linear infinite;
   display: block;
   margin: auto;
   position: relative;
@@ -71,8 +73,12 @@ html, body {
 }
 
 @keyframes MoveUpDown {
-  0%, 100% {
+  0%,
+  100% {
     bottom: 0;
+  }
+  25% {
+    bottom: 15px;
   }
 
   50% {

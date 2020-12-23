@@ -24,6 +24,10 @@ The blog is built on Gatsby.js and powered by [Netlify CMS](https://www.netlifyc
 
 [The Big Picture](http://startbootstrap.com/template-overviews/the-big-picture/) is a responsive HTML template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The template features a full-page background image and a fixed bottom navigation bar.
 
+Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+Copyright 2013-2019 Start Bootstrap
+Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/gh-pages/LICENSE) license.

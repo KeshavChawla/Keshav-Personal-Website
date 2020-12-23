@@ -14,7 +14,6 @@
   .card-img {
     max-height: 300px;
   }
-  
 }
 
 .project-link {
@@ -57,4 +56,3 @@
 .card-img {
   object-fit: cover !important;
 }
-
