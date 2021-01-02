@@ -6,7 +6,6 @@ function getMemojiImage() {
   memojiImage += ".png";
   return memojiImage; //
 }
-10, 30, 18, 5;
 // Check which specifc memojis to parse out
 function memojiParseOut(integer_passed) {
   if (integer_passed == 10 || integer_passed == 30) {
