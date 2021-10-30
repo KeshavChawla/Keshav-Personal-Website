@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-  <?php include('includes/header.html'); ?>
+  {% include_relative includes/header.html %}
 </head>
 
 <body>
-  <?php include('includes/google-tag-and-preloader.html'); ?>
+  {% include_relative includes/google-tag-and-preloader.html %}
   <!-- Navigation -->
-  <?php include('includes/navbar.html'); ?>
+  {% include_relative includes/navbar.html %}
   <!-- Page Content -->
   <div class="overflow-auto">
     <section>
       <div class="container containerpadding">
-        <?php include('includes/site-logo.html'); ?>
+        {% include_relative includes/site-logo.html %}
         <div class="row text-div">
           <div class="col-md-3">
           </div>
@@ -31,7 +31,7 @@
       </div>
     </section>
   </div>
-  <?php include('includes/footer.html'); ?>
+  {% include_relative includes/footer.html %}
 </body>
 
 </html>
